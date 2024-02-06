@@ -5,7 +5,7 @@ const menu = document.querySelector(".main-nav ul");
 // Hide menu on open.
 menu.classList.add("hide");
 
-// Toggle menu open/closed.
+// Toggle menu open/closed.with aria-expanded attribute.
 const toggleMenu = (status) => {
   if (status == "false") {
     menu.classList.remove("hide");
