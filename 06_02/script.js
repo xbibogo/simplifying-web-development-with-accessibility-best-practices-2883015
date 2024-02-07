@@ -13,6 +13,7 @@ subMenus.forEach((subMenu) => {
  * @param {DOM node} parent
  * @param {boolean} status
  */
+//toggleMenu function is now a helper function that takes a parent and status as arguments.
 const toggleMenu = (parent, status) => {
   const trigger = parent.querySelector("button");
   const subMenu = parent.querySelector("ul");
@@ -59,3 +60,5 @@ document.addEventListener("click", (e) => {
     toggleMenu(currentSubMenu, true);
   }
 });
+
+//the skip link is not working in firefox

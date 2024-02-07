@@ -41,3 +41,6 @@ document.addEventListener("click", (e) => {
     toggleMenu(true);
   }
 });
+
+//note the tapping order and the focusin state is handeled by the browser and the
+//some effect is not supported by the browser.
